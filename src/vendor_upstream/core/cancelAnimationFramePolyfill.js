@@ -14,11 +14,11 @@
  * Please don't use it directly and use cancelAnimationFrame module instead.
  */
 var cancelAnimationFrame =
-  global.cancelAnimationFrame ||
-  global.webkitCancelAnimationFrame ||
-  global.mozCancelAnimationFrame ||
-  global.oCancelAnimationFrame ||
-  global.msCancelAnimationFrame ||
-  global.clearTimeout;
+  cancelAnimationFrame ||
+  webkitCancelAnimationFrame ||
+  mozCancelAnimationFrame ||
+  oCancelAnimationFrame ||
+  msCancelAnimationFrame ||
+  clearTimeout;
 
 export default cancelAnimationFrame;
