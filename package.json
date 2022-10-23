@@ -115,5 +115,8 @@
       "eslint --cache --fix",
       "prettier --write {src,site,test,examples}/**/*.js"
     ]
+  },
+  "resolutions": {
+    "fsevents": "^2.3.2"
   }
 }
